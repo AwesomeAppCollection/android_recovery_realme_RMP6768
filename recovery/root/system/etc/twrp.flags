@@ -25,4 +25,8 @@
 /vbmeta_vendor    emmc     /dev/block/platform/bootdevice/by-name/vbmeta_vendor           flags=display="Vbmeta Vendor";flashimg=1;backup=1;
 
 /externalstorage  auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1                       flags=display="External SD Card";storage;wipeingui;removable;fsflags="utf8"
-/usbstorage       auto     /dev/block/sda1  /dev/block/sda                                flags=display="USB Storage";storage;wipeingui;removable;fsflags="utf8"
+/usbstorage       auto     /dev/block/sda1  /dev/block/sda                                flags=display="USB Storage";storage;wipeingui;removable;fsflags="utf
+
+/system     ext4    /dev/block/mapper/system      flags=backup=1;display="System";flashimg=1
+/vendor     ext4    /dev/block/mapper/vendor      flags=backup=1;display="Vendor";flashimg=1
+/product    ext4    /dev/block/mapper/product     flags=backup=1;display="Product";flashimg=1
