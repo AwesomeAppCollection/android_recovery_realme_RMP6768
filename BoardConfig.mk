@@ -157,7 +157,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TWRP_INCLUDE_LOGCAT := false
 TARGET_USES_LOGD := false
 OF_MAINTAINER := Awesome Gaming
-OF_MAINTAINER_AVATAR := device/realme/RMP6768/maintainer.png
 TW_EXTRA_LANGUAGES := false
 TW_DEFAULT_LANGUAGE := en
 TW_EXCLUDE_TZDATA := true
