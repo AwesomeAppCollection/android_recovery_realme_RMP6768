@@ -1,4 +1,4 @@
-#
+i9#
 # Copyright (C) 2020 The Android Open Source Project
 # Copyright (C) 2020 The TWRP Open Source Project
 # Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
@@ -49,7 +49,6 @@ TARGET_BOARD_PLATFORM := mt6768
 TARGET_OTA_ASSERT_DEVICE := RMP2102,RMP2103,RMP6768
 
 # Kernel
-BOARD_RAMDISK_USE_LZ4 := true
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
