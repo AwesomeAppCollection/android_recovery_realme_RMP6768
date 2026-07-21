@@ -170,3 +170,9 @@ TW_EXCLUDE_APEX := true
 TW_NO_EXFAT := true
 TW_INCLUDE_FASTBOOTD := false
 TW_EXCLUDE_ENCRYPTED_BACKUP := true
+# Disable Magisk Repack and Prop Editing Tools
+TW_INCLUDE_RESETPROP := false
+TW_INCLUDE_LIBRESETPROP := false
+TW_INCLUDE_REPACKTOOLS := false
+TW_EXCLUDE_APEX := true
+TW_NO_EXFAT := true
