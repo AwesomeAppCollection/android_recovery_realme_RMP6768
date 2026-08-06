@@ -1,7 +1,6 @@
 
-# Copyright (C) 2020 The Android Open Source Project
-# Copyright (C) 2020 The TWRP Open Source Project
-# Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2026 The Android Open Source Project
+# Copyright (C) 2026 The TWRP Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -119,9 +118,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 VENDOR_SECURITY_PATCH := 2099-12-31
-TW_INCLUDE_CRYPTO := false
-TW_INCLUDE_CRYPTO_FBE := false
-TW_INCLUDE_FBE_METADATA_DECRYPT := false
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += ashmemd_aidl_interface-cpp
@@ -164,5 +163,5 @@ TW_EXCLUDE_SUPERSU := true
 TW_EXCLUDE_LPDUMP := true
 TW_EXCLUDE_APEX := true
 TW_NO_EXFAT := true
-TW_INCLUDE_FASTBOOTD := true
-
+TW_INCLUDE_FASTBOOTD := false
+TW_OEM_BUILD := true
